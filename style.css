@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: Raleway;
+  font-weight: normal;
+  font-style: normal;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+mark {
+  color: #000;
+  background: #ff0;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -.5em;
+}
+sub {
+  bottom: -.25em;
+}
+img {
+  border: 0;
+}
+
+figure {
+  margin: 1em 40px;
+}
+hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  select {
+    background: #fff !important;
+  }
+
+  .page-links>span {
+    color: #5ed9e7;
+  }
+
+  .blog-item .page-links>a:hover {
+    color: #5ed9e7;
+  }
+
+  a {
+    color: #5ed9e7;
+  }
+
+  input[type="submit"]:hover,
+  input[type="button"]:hover,
+  button:hover,
+  .button:hover {
+    background-color: #5ed9e7;
+  }
+
+  .blog-item table a:hover {
+    color: #5ed9e7;
+  }
+
+  .dropdown-menu>li>a:hover,
+  .menu-nav>li .dropdown-menu a:hover,
+  .menu-nav>li a.dropdown-toggle:hover>span,
+  .menu-nav>li a:hover>span.fa-sort-down {
+    color: #5ed9e7;
+  }
+
+  nav {
+    font-family: Raleway;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h1 {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  h2 {
+    font-family: Raleway;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  h3 {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h4 {
+    font-family: Raleway;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h5 {
+    font-family: Raleway;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h6 {
+    font-family: Raleway;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .blog-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    background-image: url('https://www.mattiamorgavi.com/wp-content/themes/van_v1.3/assets/images/bg-banner.jpg');
+  }
+
+  .portfolio-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    background-image: url('https://www.mattiamorgavi.com/wp-content/themes/van_v1.3/assets/images/bg-banner.jpg');
+  }
